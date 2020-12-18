@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /assets/pdf/CV_Harshit_Kumar.pdf
 title: CV
 nav: true
 ---
