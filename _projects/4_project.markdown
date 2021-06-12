@@ -3,7 +3,7 @@ layout: page
 title: Logic Encryption
 description: Efficient Key-gate Placement And Dynamic Scan Obfuscation Towards Robust Logic Encryption
 img: assets/img/logic_cone_attack.PNG
-importance: 4
+importance: 6
 ---
 Modern ICs consist of different functional modules, called IP cores, provided by different IP vendors located worldwide.
 Such a global scale of the semiconductor supply chain eases the development of complex ICs. However, it introduces several

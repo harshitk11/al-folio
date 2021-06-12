@@ -3,7 +3,7 @@ layout: page
 title: BiasP
 description: A DVFS based Exploit to Undermine Resource Allocation Fairness in Linux Platform
 img: /assets/img/state_diagram.png
-importance: 1
+importance: 3
 ---
 In this work, we use the Dynamic Voltage and Frequency Scaling (DVFS) framework of the power management infrastructure in modern SoCs to undermine the resource allocation fairness. DVFS aims to find the right balance between performance and power consumption. It reduces the power consumption of a computing device by scaling down the voltage and frequency based on the targetted performance requirements
 of the task. As shown in the following figure, the DVFS states of a commercial Android smartphone is modulated on the basis of its CPU utilization.

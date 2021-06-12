@@ -3,7 +3,7 @@ layout: page
 title: IP Protection
 description: Towards Increasing the Difficulty of Reverse Engineering of RSFQ Circuits
 img: /assets/img/OR-AND.jpg
-importance: 3
+importance: 5
 ---
 Energy efficient supercomputers based on superconducting electronics (SCE) have been pursued for about six decades
 and can operate at ultra-high speed (near THz frequencies) while consuming ultra-low power.

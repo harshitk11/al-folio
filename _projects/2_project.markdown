@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Malware Detector
+title: Power Management based Malware Detector
 description: Securing IoT Devices using Dynamic Power Management
 img: /assets/img/Fig1_v4-1.jpg
-importance: 2
+importance: 4
 ---
 In this work, we demonstrate that Dynamic Voltage and Frequency Scaling (DVFS) states form a signature pertinent to an application, and its run-time variations comprises of features essential for securing IoT devices against malware attacks. We have demonstrated this proof of concept
 by performing experimental analysis on Snapdragon 820 mobile processor, hosting Android operating system (OS). We developed
