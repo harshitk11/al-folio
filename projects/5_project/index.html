@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Harshit  Kumar</title>
+<title>Harshit  Kumar | EM based Malware Analysis</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/5_project/">
 
 <!-- Theming-->
 
@@ -76,7 +76,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -135,18 +135,39 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>other interests</h1>
-    <h2>DISCLAIMER- I talk about stonks and Formula 1 here.</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">EM based Malware Analysis</h1>
+    <p class="post-description">Machine Learning in Wavelet Domain for Electromagnetic Emission based Malware Analysis</p>
+  </header>
 
+  <article>
+    <p>In this work, we present a signal processing and machine learning (ML) based methodology to leverage Electromagnetic (EM) emissions from an embedded device to remotely detect a malicions application running on the device and classify the malicious application into a malware family. The experimental demonstration on Open-Q 820 development platform demonstrates 0.99 F1 schore in detecting malware and 0.88 F1 score in uniquely classifying malwares among 8 different malware families using Support Vector Machines and Random Fores ML models.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/EM-overview.PNG" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    EM side-channel monitoring setup, feature extractor, and ML model for detecting threat and classifying its characteristic behavior.
+</div>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>We demonstrate unique data-processing methods by coupling 1D-STFR and 2D-DWT on the spectrogram of EM side-channel traces.</p>
 
-  
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/benign-vs-malware-f1.PNG" alt="" title="example image" />
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/malware-family-em.PNG" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    [left] Validation Score for malware detection, [right] Validation score for classifying a malicious workload into malware families.
+</div>
 
+<p>For a detailed report of the work, please refer to our <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9432941">paper</a>.</p>
+
+  </article>
 
 </div>
 

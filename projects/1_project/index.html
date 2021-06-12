@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Harshit  Kumar</title>
+<title>Harshit  Kumar | BiasP</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/1_project/">
 
 <!-- Theming-->
 
@@ -76,7 +76,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -135,18 +135,40 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>other interests</h1>
-    <h2>DISCLAIMER- I talk about stonks and Formula 1 here.</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">BiasP</h1>
+    <p class="post-description">A DVFS based Exploit to Undermine Resource Allocation Fairness in Linux Platform</p>
+  </header>
 
+  <article>
+    <p>In this work, we use the Dynamic Voltage and Frequency Scaling (DVFS) framework of the power management infrastructure in modern SoCs to undermine the resource allocation fairness. DVFS aims to find the right balance between performance and power consumption. It reduces the power consumption of a computing device by scaling down the voltage and frequency based on the targetted performance requirements
+of the task. As shown in the following figure, the DVFS states of a commercial Android smartphone is modulated on the basis of its CPU utilization.</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/schedutil1.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    CPU utilization of a particular workload and its corresponding allocated DVFS state.
+</div>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>We formulate a robust task detection methodology, on commercial Linux-kernel based platforms, which is capable of accurately detecting targeted-tasks executing instructions on the CPU-core. We then modify the DVFS attributes to restrict CPU resource allocation to a set of targeted tasks degrading their performance.</p>
 
-  
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/target_detect2.png" alt="" title="example image" />
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/retinstruction_degradation1.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    On the left, we demonstrate the exploit in a commercial Android smartphone. When a targetted task is actively executing instructions on the CPU-core, BiasP lowers the DVFS state to its lowest value. The corresponding performance degradation for the applications that we had considered, as observed by the decrease in the number of retired instructions, is shown in the figure on the right. 
+</div>
 
+<p>For a detailed report of the work, please refer to our <a href="https://dl.acm.org/doi/abs/10.1145/3370748.3406549">paper</a>.</p>
+
+  </article>
 
 </div>
 
